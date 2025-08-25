@@ -3,24 +3,6 @@
 Uma suíte TUI (Text User Interface) em Bash com abas [Início] [Teste] [Sobre] que executa checagens de performance e inventário do sistema com foco em segurança operacional: velocidade de internet, escrita em disco, carga de CPU/GPU, informações completas do sistema e verificação segura de pendrives.
 
 Plataforma alvo: Linux (Debian/Ubuntu, Fedora, Arch e derivados). Requer privilégios pontuais para funções específicas (p.ex. badblocks, fsck).
---------------------------------------------------------
-
-# Estrutura
-audit-tui/
-├─ README.md # Manual completo (você está aqui, em essência)
-├─ install.sh # Instalador + verificador de dependências
-├─ audit-tui.sh # Executável principal (TUI)
-├─ config/
-│ └─ settings.env # Configurações exportáveis/importáveis
-├─ lib/
-│ ├─ common.sh # Utilitários, logging, checagens
-│ ├─ menu_inicio.sh # Aba [Início]
-│ ├─ menu_teste.sh # Aba [Teste]
-│ ├─ sysinfo.sh # Coleta de informações do sistema
-│ └─ usb_safecheck.sh # Varredura segura de pendrives + correções não destrutivas (quando possível)
-└─ logs/
-└─ (gerado em runtime)
--------------------------------------------------------
 
 # Princípios de segurança aplicados
 Não-destrutivo por padrão: qualquer ação que possa afetar dados é opt-in e exige confirmação explícita.
