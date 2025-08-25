@@ -1,6 +1,6 @@
 # 📦 Projeto: audit-tui — Ferramenta TUI em Bash para testes e auditoria segura
 
-Uma suíte TUI (Text User Interface) em Bash com abas [Início] [Teste] [Sobre] que executa checagens de performance e inventário do sistema com foco em segurança operacional: velocidade de internet, escrita em disco, carga de CPU/GPU, informações completas do sistema e verificação segura de pendrives.
+Uma suíte TUI (Text User Interface) em Bash que executa checagens de performance e inventário do sistema com foco em segurança operacional: velocidade de internet, escrita em disco, carga de CPU/GPU, informações completas do sistema e verificação segura de pendrives.
 
 Plataforma alvo: Linux (Debian/Ubuntu, Fedora, Arch e derivados). Requer privilégios pontuais para funções específicas (p.ex. badblocks, fsck).
 
